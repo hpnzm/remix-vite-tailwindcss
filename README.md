@@ -2,6 +2,11 @@
 
 📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
 
+You can also initialize a new project with this template using this command:
+```
+npx create-remix@latest --template https://github.com/hpnzm/remix-vite-tailwindcss
+```
+
 ## Development
 
 Run the Vite dev server:
