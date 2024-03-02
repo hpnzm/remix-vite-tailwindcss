@@ -6,7 +6,12 @@ import tsconfigPaths from "vite-tsconfig-paths";
 installGlobals();
 
 export default defineConfig({
-  plugins: [remix(), tsconfigPaths()],
+  plugins: [
+    remix({
+      ignoredRouteFiles: ["**/*.css"],
+    }),
+    tsconfigPaths(),
+  ],
   server: {
     fs: {
       // Restrict files that could be served by Vite's dev server.  Accessing
