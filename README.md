@@ -4,7 +4,7 @@
 
 You can initialize a new project with this template using this command:
 ```
-npx create-remix@latest --template https://github.com/hpnzm/remix-vite-tailwindcss
+npx create-remix@latest --template hpnzm/remix-vite-tailwindcss
 ```
 
 ## Development
