@@ -47,6 +47,9 @@ module.exports = {
           typescript: {},
         },
       },
+      rules: {
+        "react/prop-types": "off",
+      },
     },
 
     // Typescript
@@ -70,6 +73,9 @@ module.exports = {
         "plugin:import/recommended",
         "plugin:import/typescript",
       ],
+      rules: {
+        "@typescript-eslint/no-explicit-any": "off",
+      },
     },
 
     // Node
